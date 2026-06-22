@@ -1,17 +1,87 @@
-# React + Vite
+# 🚀 CryptoPlace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CryptoPlace is a React-based cryptocurrency tracking web application that displays real-time market data using the CoinGecko API. It allows users to view cryptocurrency rankings, prices, and market capitalization in a clean and responsive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Features
 
-## React Compiler
+* 🔄 Real-time cryptocurrency data from CoinGecko API
+* 📊 Displays coin ranking, price, and market cap
+* 🔀 Dynamic routing using React Router
+* 🧩 Reusable components architecture
+* ⚛️ State management with React Hooks
+* 📱 Fully responsive UI design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Cryptoplace-React
+* React.js
+* React Router
+* JavaScript (ES6+)
+* CoinGecko API
+* CSS3
+
+---
+
+## 📡 API Used
+
+This project uses the **CoinGecko API** to fetch live cryptocurrency market data:
+
+https://www.coingecko.com/en/api
+
+---
+
+## 📂 Project Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/cryptoplace.git
+```
+
+### 2. Navigate to project directory
+
+```bash
+cd cryptoplace
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm start
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped strengthen my understanding of:
+
+* React components and props
+* Hooks (useState, useEffect)
+* API integration and async data handling
+* Routing with React Router
+* Building responsive UI layouts
+
+---
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 🙌 Acknowledgements
+
+* CoinGecko API for providing free crypto data
+* React community for documentation and resources
